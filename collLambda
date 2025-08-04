@@ -1,0 +1,18 @@
+
+
+
+
+coll = [ 1,2,3,4,5,6]
+
+doublecoll = []
+
+
+doubleval = lambda x : x * 2
+
+
+for i in coll:
+    endval = doubleval(i)
+    doublecoll.append(endval)
+    
+print(coll)
+print(doublecoll)
